@@ -1,0 +1,36 @@
+@header_height: 40px;
+// @header_height: 40px;
+.AirPage {
+  background-color: #f60;
+  min-height: 100vh;
+
+  header,
+  footer {
+    height: @header_height;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: lightblue;
+    // height: ;
+  }
+
+  main {
+    margin: @header_height 0;
+    text-align: center;
+  }
+  header {
+    left: 0;
+    top: 0;
+    // position: fixed;
+    // background-color: #fff;
+  }
+  footer {
+    left: 0;
+    bottom: 0;
+    // position: fixed;
+    // width: 100vw;
+    // background-color: #fff;
+  }
+}
