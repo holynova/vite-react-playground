@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
@@ -10,10 +11,13 @@
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.17.2",
     "axios": "^0.26.0",
+    "json5": "^2.2.1",
     "mobx": "^6.5.0",
     "mobx-react": "^7.4.0",
+    "monaco-editor": "^0.34.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-monaco-editor": "^0.50.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
